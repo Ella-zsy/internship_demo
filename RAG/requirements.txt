@@ -1,0 +1,11 @@
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+chromadb
+pymupdf
+sentence-transformers
+llama-cpp-python
+fastapi
+uvicorn
+rank-bm25

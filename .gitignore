@@ -1,0 +1,20 @@
+# models
+*.gguf
+*.pt
+*.pth
+
+# vector db
+chroma/
+*.db
+
+# dataset
+data/
+dataset/
+
+# python
+__pycache__/
+*.pyc
+
+# env
+venv/
+.env
