@@ -32,10 +32,5 @@ def calculator_tool(expression: str) -> str:
     except Exception as e:
         return "计算错误，请检查表达式是否合法。"
 
-@tool
-def current_time_tool(query: str) -> str:
-    """当你被问到当前系统时间、今天是几号等时间相关问题时，请使用此工具。"""
-    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
 # 导出工具列表
 agent_tools = [knowledge_base_tool, calculator_tool, current_time_tool]
